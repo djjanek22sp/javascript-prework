@@ -4,16 +4,31 @@
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+	<header class="splash">
+		<div class="container">
+			<h1 class="page-title">Zagrajmy w grę...</h1>
 		</div>
-		<div id="messages"></div>
-	</div>
+	</header>
+	<section class="tutorial">
+		<div class="container">
+			<h2 class="section-title">Instrukcje</h2>
+			<p class="tutorial-dcs">Masz do wyboru jedną z trzech opcji. Kamień pokonuje nożyce. Papier dominuje kamień. Nożyce niszczą papier. Powodzenia!</p>
+		</div>
+	</section>
+	<section class="game">
+		<div class="container">
+			<div class="btn-box" id="buttons">
+				<button class="btn" id="button-rock">Kamień</button>
+				<button class="btn" id="button-paper">Papier</button>
+				<button class="btn" id="button-scissors">Nożyce</button>
+			</div>
+			<div class="msg-box" id="messages"></div>
+		</div>
+	</section>
+
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>

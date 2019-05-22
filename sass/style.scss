@@ -1,0 +1,75 @@
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 108px 0;
+}
+
+/*Splash*/
+
+.splash {
+height: 100vh;
+position: relative;
+background: url(https://i.postimg.cc/85mQ2g55/blue-controller-dualshock-18174.jpg) 50% 50%;
+background-size: cover;
+background-attachment: fixed;
+padding: 108px 0;
+}
+
+.page-title {
+  margin-top: 150px;
+  font-size: 72px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  color: #EA2027;
+  letter-spacing: 5px;
+
+}
+
+/*Tutorial*/
+
+.section-title {
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  color: #EA2027;
+}
+
+.tutorial-dcs {
+  font-size: 24px;
+
+}
+/*Game*/
+
+.game {
+  background-color: #f0f0f0;
+}
+
+.btn {
+  height: 100px;
+  width: 300px;
+  border-radius: 25px;
+  background-color: indianred;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.btn:hover {
+}
