@@ -65,4 +65,12 @@ section {
   text-transform: uppercase;
   margin-right: 20px;
 }
+
+.msg-box {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: blue;
+  color: #ffffff;
+}
 /*# sourceMappingURL=style.css.map */
