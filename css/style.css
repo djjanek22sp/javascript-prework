@@ -73,4 +73,11 @@ section {
   background-color: blue;
   color: #ffffff;
 }
+
+.result {
+  display: block;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
 /*# sourceMappingURL=style.css.map */
