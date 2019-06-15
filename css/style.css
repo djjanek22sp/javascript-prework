@@ -80,4 +80,12 @@ section {
   margin-top: 10px;
   margin-right: 5px;
 }
+
+.result-pc {
+  color: red;
+}
+
+.result-player {
+  color: green;
+}
 /*# sourceMappingURL=style.css.map */

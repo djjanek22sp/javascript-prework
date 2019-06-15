@@ -40,20 +40,20 @@ function buttonClicked(argButtonName) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
     console.log('Human result: ', humanResult);
     console.log('Computer result:', computerResult);
-    document.getElementById('result-human').innerHTML = ('Wygrałeś: ' + humanResult);
-    document.getElementById('result-computer').innerHTML = ('Przegrałeś: ' + computerResult);
+    document.getElementById('result-human').innerHTML = (humanResult);
+    document.getElementById('result-computer').innerHTML = (computerResult);
   }
 
-  playerMove = argButtonName;
+  const playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
-  randomNumber = Math.floor(Math.random() * 3 + 1);
+  let randomNumber = Math.floor(Math.random() * 3 + 1);
   console.log('wylosowana liczba to: ' + randomNumber);
-  computerMove = getMoveName(randomNumber);
+  let computerMove = getMoveName(randomNumber);
   console.log('ruch komputera to: ' + computerMove);
   displayResult(playerMove, computerMove);
 
 }
-let buttonPaper = document.getElementById('button-paper'),
+const buttonPaper = document.getElementById('button-paper'),
  buttonRock = document.getElementById('button-rock'),
  buttonScissors = document.getElementById('button-scissors');
 
